@@ -17,25 +17,45 @@ public class Employee {
     private int id;
 
     // Accessor Methods
-
+    /**
+     *
+     * @return String name
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     *
+     * @return Date dateHire
+     */
     public Date getDateHired() {
         return dateHired;
     }
 
+    /**
+     *
+     * @return int id
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     *
+     * @return boolean managerFlag
+     */
     public boolean isManagerFlag() {
         return managerFlag;
     }
 
+    /**
+     *
+     * @return boolean partTimeFlag
+     */
     public boolean isPartTimeFlag() {
         return partTimeFlag;
     }
 
 }
+
